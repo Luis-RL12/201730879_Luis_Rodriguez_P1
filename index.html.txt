@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Login</title>
+         <link rel="stylesheet" href="login.css">
+    </head>
+    <body>
+        <form action="index.html" class="login-form">
+        <h2 style="text-align: center">Iniciar Sesión</h2>
+
+        <div class="txtb">
+            <h3 style="font-size: 15px; color: gray">User Name:</h3>
+            <input type="text">
+        </div>
+
+        <div class="txtb">
+            <h3 style="font-size: 15px; color: gray">Password:</h3>
+            <input type="password">
+        </div>
+
+        <input type="submit" class="logbtn" style="font-size: 20px;" value="Login">
+
+        <div class="bottom-text">
+            <h3>¿No tienes cuenta?</h3><a href="#" style="font-size: 15px;">Registrate</a>
+        </div>
+      </form>
+    </body>
+</html>
