@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/bootstrap.css">
+</head>
+
+<body style="background-image: linear-gradient(120deg,#3498db,#8e44ad); color: white;">
+    <header> 
+        <img src="Files/Usac_logo.png" width="100" height="100">
+        <p style="text-align: center; margin: auto; margin-top: -50px;">ANALIZADOR LEXICO</p>
+    </header>
+    <% include bloque/nav.html%>
+    <br>
+    <h1>Diagramas AFD</h1>
+    <div class="card mb-3">
+        <img src="Files/AFDFinal.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Automata</h5>
+        </div>
+      </div>
+      <div class="card mb-1">
+        <img src="Files/AFDreservadas.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Palabras Recervadas</h5>
+        </div>
+      </div>
+    <hr>
+    <h1>Tabla de Transiciones</h1>
+    <table class="table">
+            <thead class="thead-light">
+              <tr>
+                <th scope="col">Estado</th>
+                <th scope="col">Letra</th>
+                <th scope="col">Numero</th>
+                <th scope="col">Operador</th>
+                <th scope="col">Agrupacion</th>
+                <th scope="col">Signos</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">S0</th>
+                <td>S1</td>
+                <td>S2</td>
+                <td>S3</td>
+                <td>S4</td>
+                <td>S5</td>
+              </tr>
+              <tr>
+                <th scope="row">S1</th>
+                <td>S1</td>
+                <td>S1</td>
+                <td>ERROR</td>
+                <td>ERROR</td>
+                <td>ERROR</td>
+              </tr>
+              <tr>
+                <th scope="row">S2</th>
+                <td>ERROR</td>
+                <td>S2</td>
+                <td>ERROR</td>
+                <td>ERROR</td>
+                <td>ERROR</td>
+              </tr>
+              <tr>
+                    <th scope="row">S3</th>
+                    <td>ERROR</td>
+                    <td>ERROR</td>
+                    <td>ERROR</td>
+                    <td>ERROR</td>
+                    <td>ERROR</td>
+                  </tr>
+                  <tr>
+                        <th scope="row">S4</th>
+                        <td>ERROR</td>
+                        <td>ERROR</td>
+                        <td>ERROR</td>
+                        <td>ERROR</td>
+                        <td>ERROR</td>
+                      </tr>
+                      <tr>
+                            <th scope="row">S5</th>
+                            <td>ERROR</td>
+                            <td>ERROR</td>
+                            <td>ERROR</td>
+                            <td>ERROR</td>
+                            <td>ERROR</td>
+                          </tr>
+            </tbody>
+          </table>
+</body>
+</html>
